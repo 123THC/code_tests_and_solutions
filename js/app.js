@@ -45,3 +45,9 @@ function filter_list(l) {
   );
   return result;
 }
+
+// this is someone else answer - way better!
+
+function filter_list(l) {
+  return l.filter(function(v) {return typeof v == 'number'})
+}
