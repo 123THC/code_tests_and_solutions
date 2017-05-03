@@ -31,3 +31,17 @@ function isIsogram(str){
   }
   return true;
 }
+
+// Question 3
+
+create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+function filter_list(l) {
+  var arr = l;
+  var result = arr.filter(
+    function (elem) {
+      return (typeof elem === 'number');
+    }
+  );
+  return result;
+}
